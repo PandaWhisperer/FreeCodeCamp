@@ -262,6 +262,7 @@ export class JobTotal extends PureComponent {
                     action='https://www.paypal.com/cgi-bin/webscr'
                     method='post'
                     onClick={ () => setTimeout(push, 0, '/jobs') }
+                    rel='noopener noreferrer'
                     target='_blank'>
                     <input
                       name='cmd'
